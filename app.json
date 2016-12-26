@@ -1,0 +1,8 @@
+{
+  "name": "Start on Heroku: index.js",
+  "description": "A barebones index.js app using Express 4",
+  "repository": "https://github.com/jazibnasim/final-project",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

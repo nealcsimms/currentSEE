@@ -1,0 +1,161 @@
+body{
+	background-image: url("../images/background.jpg");
+  	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color:#04D4E5;
+	}
+	
+h1{
+	font-size:3vw;
+	text-align:center;
+	text-decoration:none;
+	font-family:'Gravitas One';
+	span{
+	font-family:'Gravitas One';
+	color:#0d97ff;
+	}
+	
+	img{
+		height:3vw;
+		width:3vw;
+	}
+}
+
+#footer {
+	margin-bottom:0px;
+	background-color:white;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    list-style-type:none;
+    	
+    #google{
+    	margin-right:90px;
+    }
+
+    #creators{
+    	margin-top:25px;
+    	font-family:sans-serif;
+    	color:#0d97ff;
+    	display:inline-block;
+    	float: left;
+    }
+
+    #about{
+    	margin-top:25px;
+    }
+
+    #powered{
+    	margin-top:25px;
+    }
+
+    .navlinks{
+    	margin-top:5px;
+    	font-family:sans-serif;
+    	margin-right:2vw;
+    	color:#0d97ff;
+    	display:inline-block;
+    	float:right;
+
+    	img{
+    		height:3vw;
+    		width:3vw;
+    	}
+    } 
+}
+
+#view{
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#0d97ff;
+}
+
+#form{
+  	height:36vw;
+	margin:0vw auto 0vw auto;
+ 	padding:50px auto 50px auto;
+
+ 	form{
+ 	margin-left:auto;
+ 	margin-right:auto;
+	text-align:center;
+
+		input{
+			font-size:2vw;
+			margin-top:5vw;
+			width:75%;
+			height:5vw;
+		}
+
+		button{
+			color:white;
+			border:none;
+			background-color:#04D4E5;
+			font-size:2vw;
+			width:65%;
+			height:5vw;
+			margin-top:5vw;
+			margin-bottom:5vw;
+		}
+	}	
+ }
+	
+#result{
+  	height:36vw;
+	margin:0vw auto 0vw auto;
+ 	padding:50px auto 50px auto;
+
+	#picture{
+		display:inline-block;
+	}
+
+ 	.googleimages{
+ 		display:inline-block;
+ 		width:10vw;
+ 		height:10vw;
+ 		overflow:hidden;
+ 		margin:20px;
+ 	}
+
+ blockquote {
+	  display: inline-block;
+	  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+	  font-size: 12px;
+	  font-weight: bold;
+	  line-height: 16px;
+	  border-color: #eee #ddd #bbb;
+	  border-radius: 5px;
+	  border-style: solid;
+	  border-width: 1px;
+	  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	  margin: 10px 5px;
+	  padding: 0 16px 16px 16px;
+	  max-width: 468px;
+}
+
+ p {
+	  font-size: 16px;
+	  font-weight: normal;
+	  line-height: 20px;
+}
+ }
+
+#aboutview{
+	
+	h2{
+	text-align:center;
+	}
+
+	.bios {
+		display:inline-block;
+	}
+
+}
+

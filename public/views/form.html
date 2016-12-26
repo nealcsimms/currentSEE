@@ -1,0 +1,26 @@
+
+
+
+
+
+				<div id="form" ng-controller="formController">
+				<!--form for the user search-->
+					<form>
+
+						<input type="text" placeholder="NAME" ng-model="searchWords.name" />
+
+						<br>
+
+						<input type="text" placeholder="CITY" ng-model="searchWords.city" />
+
+
+						<br>
+					<!--button to send results below-->
+
+
+						<button type="submit" ng-click="saveForm(searchWords)">Search</button>
+					</form>
+				</div>
+
+
+</body>

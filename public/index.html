@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="currentsee">
+        <head>
+            <title>currentSEE</title>
+            <link rel="stylesheet" type="text/css" href="css/master.css">
+            <link href="https://fonts.googleapis.com/css?family=Bungee|Gravitas+One|Russo+One|Titan+One" rel="stylesheet">
+        </head>
+                <body>
+                	<!--header and footer will remain static outside the views. this is a temp header. to be replaced by logo image. will link to form view-->
+                	<a href="#/form"><h1><span>current</span>SEE<img src="/images/currentsee.png"></h1></a>
+                    <!--style="overflow: scroll;" -->
+                            <div id="view" ng-view=" ">Loading...</div>
+                            <!--the footer will contain created by info, powered by api's info, the logo's for the apis, and a link to our about page-->
+                    <ul id="footer">
+
+                        <li class="navlinks" id="google"><a href="https://www.google.com/"><img src="/images/google.png"></a></li>
+                        <li class="navlinks" id="twitter"><a href="https://twitter.com/"><img src="/images/twitter.png"></a></li>
+                        <li class="navlinks" id="powered">Powered By</li>
+                        <li class="navlinks" id="about"><a href="#/about">About</a></li>
+
+                    </ul>
+
+                    <script src="lib/jquery-1.11.1.js"></script>
+                    <script src="lib/angular.min.js"></script>
+                    <script src="lib/angular-route.min.js"></script>
+                    <script src="js/app.js"></script>
+                    <script src="js/factory.js"></script>
+
+                </body>
+</html>
